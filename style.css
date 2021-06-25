@@ -1,0 +1,154 @@
+* {
+  //border: solid 1px;
+  font-family: 微軟正黑體;
+}
+.navbar-nav {
+  margin-left: 200px;
+}
+.container {
+  padding-top: 50px;
+}
+.photo {
+  padding-top: 100px;
+}
+section {
+  padding-top: 80px;
+}
+
+section#s2 {
+  padding-bottom: 40px;
+}
+
+.box {
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.box:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  transform: translate(-5px, -5px);
+}
+.box:hover .top {
+  height: 250px;
+}
+.top1 {
+  background-image: url(https://s1083841.github.io/img/10.jpg);
+  background-position: center;
+  background-size: 450px;
+  height: 330px;
+  position: relative;
+  transition: 0.5s;
+}
+.top2 {
+  background-image: url(https://s1083841.github.io/img/11.jpg);
+  background-position: center;
+  background-size: 450px;
+  height: 330px;
+  position: relative;
+  transition: 0.5s;
+}
+.top3 {
+  background-image: url(https://s1083841.github.io/img/13.jpg);
+  background-position: center;
+  background-size: 590px;
+  height: 330px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.top .name {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px 15px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  background: linear-gradient(transparent 0%, black 100%);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.top .name .smallText {
+  font-size: 14px;
+}
+.bottom {
+  padding: 10px 20px 20px 20px;
+}
+.bottom li {
+  padding: 5px 0px;
+}
+.bottom h3 {
+  display: inline-block;
+}
+.bottom ul {
+  list-style: none;
+  padding-left: 0;
+}
+.buttons {
+  margin-top: 30px;
+}
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+}
+.btnWebsite {
+  background-color: #5bffe1;
+  color: white;
+  transition: 0.5s;
+}
+.btnWebsite:hover {
+  background-color: #bed2d4;
+}
+.btnNews {
+  border: solid 1px black;
+  float: right;
+}
+.btnNews:hover {
+  background-color: #eee;
+}
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #000;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before,
+.toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #f90;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
+.pic:hover {
+  transform: scale(110%);
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.navbar {
+  background-color: #dae3eb;
+}
